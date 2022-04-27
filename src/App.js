@@ -1,5 +1,6 @@
 import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
+import Hello from "./Hello";
 
 function App() {
   const dispatch = useDispatch();
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+      <Hello />
       <h1>Redux basic Example</h1>
       <h3>{count}</h3>
       <div>
